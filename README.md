@@ -32,7 +32,7 @@ project-root/
 
 ### Видео-демонстрация (YouTube)
 
-[Ссылка на видео](https://youtube.com/your-demo-link](https://youtu.be/5WcVeVUpYtA)
+[Ссылка на видео](https://youtu.be/5WcVeVUpYtA)
 
 ---
 
