@@ -26,7 +26,7 @@ project-root/
 │   └── pkg/
 │       ├── logger/
 │       └── config/
-└── README_RU.md
+└── README.md
 ```
 ---
 
