@@ -34,7 +34,7 @@ project-root/
 
 [Ссылка на видео](https://youtu.be/5WcVeVUpYtA)
 
-![Демонстрация работы сервиса](../images/image-demonstration.png)
+![Демонстрация работы сервиса](https://github.com/vagonaizer/workmate-task-hub/blob/main/images/image-demonstration.png)
 
 ---
 
