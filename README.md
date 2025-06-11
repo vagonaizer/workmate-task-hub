@@ -1,35 +1,5 @@
 ## Task Hub - сервис управления задачами. Workmate тестовое задание.
 
-## Структура проекта
-
-```
-project-root/
-├── Makefile
-├── examples/
-│   └── task-hub.http
-├── task-hub/
-│   ├── cmd/
-│   │   └── app/
-│   │       └── main.go
-│   ├── internal/
-│   │   ├── app/
-│   │   ├── config/
-│   │   ├── domain/
-│   │   │   ├── models/
-│   │   │   └── ports/
-│   │   ├── repository/
-│   │   │   └── in-memory/
-│   │   ├── services/
-│   │   │   └── task-service/
-│   │   └── transport/
-│   │       └── http/
-│   └── pkg/
-│       ├── logger/
-│       └── config/
-└── README.md
-```
----
-
 ### Видео-демонстрация (YouTube)
 
 [Ссылка на видео](https://youtu.be/5WcVeVUpYtA)
