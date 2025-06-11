@@ -34,11 +34,7 @@ project-root/
 
 [Ссылка на видео](https://youtu.be/5WcVeVUpYtA)
 
----
-
-### GIF с примером работы
-
-![Демонстрация работы сервиса](your-demo.gif)
+![Демонстрация работы сервиса](images/image-demonstation.png)
 
 ---
 
