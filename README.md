@@ -34,7 +34,7 @@ project-root/
 
 [Ссылка на видео](https://youtu.be/5WcVeVUpYtA)
 
-![Демонстрация работы сервиса](images/image-demonstation.png)
+![Демонстрация работы сервиса](../images/image-demonstation.png)
 
 ---
 
