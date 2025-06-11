@@ -1,0 +1,80 @@
+### Создать задачу
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Принять зелень на работу",
+  "description": "Без работников работа не клеится",
+  "priority": "high",
+  "deadline": "2025-06-12T18:00:00Z"
+}
+
+
+###
+
+### Получить список всех задач
+GET http://localhost:8080/api/tasks
+
+###
+
+
+### Получить задачу по id
+GET http://localhost:8080/api/tasks/{task_id}
+
+###
+
+### Удалить задачу по id
+DELETE http://localhost:8080/api/tasks/{task_id}
+
+###
+
+### Изменить статус задачи
+PATCH http://localhost:8080/api/tasks/{task_id}/status
+Content-Type: application/json
+
+{
+  "status": "in_progress"
+}
+
+###
+
+### Получить статус задачи
+GET http://localhost:8080/api/tasks/{task_id}/status
+
+###
+
+### Изменить название задачи
+PATCH http://localhost:8080/api/tasks/{task_id}/title
+Content-Type: application/json
+
+{
+  "title": "Новое название задачи"
+}
+
+###
+
+### Изменить описание задачи
+PATCH http://localhost:8080/api/tasks/{task_id}/description
+Content-Type: application/json
+
+{
+  "description": "Новое описание задачи"
+}
+
+###
+
+### Завершить задачу
+PATCH http://localhost:8080/api/tasks/{task_id}/status
+Content-Type: application/json
+
+{
+  "status": "completed"
+}
+
+### Получить статус задачи
+GET http://localhost:8080/api/tasks/{task_id}/status
+
+### Получить задачу с duration
+GET http://localhost:8080/api/tasks/{task_id}
+
+###

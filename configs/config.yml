@@ -1,0 +1,12 @@
+appname: "workmate-task-hub"
+appversion: "1.0.0"
+env: "debug"
+server:
+  port: "8080"
+logger:
+  level: "info"
+db:
+  type: "inmemory" # could be postgres if implemented
+  dsn: "host=prod-db user=prod dbname=prod sslmode=disable"
+task:
+  defaultduration: "10m"
